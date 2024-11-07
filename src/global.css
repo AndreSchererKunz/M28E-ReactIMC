@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 5em;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000000;
+  border: 1px solid #229A00;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  margin-left: 6em;
+  box-shadow: #229A00 2px 2px 4px;
+  width: 60%;
+}
