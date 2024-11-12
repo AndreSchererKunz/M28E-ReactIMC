@@ -18,13 +18,13 @@ function App() {
 
       if (imcCalculado < 18.5) {
         setClassificacao('Abaixo do peso');
-      } else if (imcCalculado >= 18.5 && imcCalculado < 24.9) {
+      } else if (imcCalculado >= 18.5 && imcCalculado < 24.99) {
         setClassificacao('Peso normal');
-      } else if (imcCalculado >= 25 && imcCalculado < 29.9) {
+      } else if (imcCalculado >= 25 && imcCalculado < 29.99) {
         setClassificacao('Sobrepeso');
-      } else if (imcCalculado >= 30 && imcCalculado < 34.9) {
+      } else if (imcCalculado >= 30 && imcCalculado < 34.99) {
         setClassificacao('Obesidade grau 1');
-      } else if (imcCalculado >= 35 && imcCalculado < 39.9) {
+      } else if (imcCalculado >= 35 && imcCalculado < 39.99) {
         setClassificacao('Obesidade grau 2');
       } else {
         setClassificacao('Obesidade grau 3');

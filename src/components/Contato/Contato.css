@@ -1,18 +1,16 @@
 .contato {
     background-color: rgb(175, 216, 175);
     border-radius: 12px;
-    margin-left: 28em;
     box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 4px;
     width: 30%;
+    margin-top: 1em;
 }
 
 .contato a {
-    
     color: black;
 }
 
 footer {
-    margin-top: 2em;
     border-radius: 25px;
     padding: 0.5em;
     border: 1px solid rgba(175, 216, 175, 0.6);
